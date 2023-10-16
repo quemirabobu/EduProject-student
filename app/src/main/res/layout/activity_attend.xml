@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="노태우님 환영합니다"
+        android:textColor="@color/main"
+
+        android:fontFamily="@font/baeminjua"
+
+        android:textSize="30sp" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입실"
+        android:fontFamily="@font/baeminjua"
+        android:backgroundTint="#80419721"
+        android:textSize="20dp"
+
+        android:id="@+id/enterButton"/>
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/starttime"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:background="@drawable/green_border"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/main"
+
+        android:text="입실시간이 표시됩니다."
+        android:fontFamily="@font/baeminjua"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="퇴실"
+        android:fontFamily="@font/baeminjua"
+android:backgroundTint="#80419721"
+android:textSize="20dp"
+        android:id="@+id/exitButton"/>
+    <TextView
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/finishtime"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:background="@drawable/green_border"
+        android:textAlignment="center"
+        android:textColor="@color/main"
+
+        android:text="퇴실시간이 표시됩니다."
+        android:gravity="center"
+        android:fontFamily="@font/baeminjua"
+
+        android:textSize="20sp" />
+
+</LinearLayout>
